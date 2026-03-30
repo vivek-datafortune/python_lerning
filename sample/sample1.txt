@@ -1,0 +1,9 @@
+- Lists: Creating, accessing, and slicing lists.
+- List methods: append, pop, insert, sort, reverse.
+- Indexing: Negative indexing and step slicing.
+- Dictionaries, Tuples & Sets:
+    - Dictionaries: Key/value pairs (similar to JS objects).
+    - Tuples: Immutable, ordered sequences.
+    - Sets: Unique values and fast lookups.
+- Comprehensions: List, dictionary, and set comprehensions (replacing map/filter loops).
+- Mini-Project: Contact Manager — applying all data structures in one project.

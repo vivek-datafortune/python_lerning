@@ -1,0 +1,10 @@
+- Django Overview: Django is a "batteries included" Python web framework with a built-in ORM, URL routing, templates, admin panel, and authentication — unlike Express.js which requires manual setup for each.
+- Package Manager Upgrade: Switch from `pip` to `uv` for Django projects — `uv add django` (install), `uv remove django` (uninstall), `uv sync` (install from lockfile). Faster and auto-manages dependencies.
+- Installing Django: Create a virtual environment, activate it, then `pip install django djangorestframework` and verify with `python -m django --version`.
+- Creating a Project: `django-admin startproject myproject .` generates the project config folder with `settings.py`, `urls.py`, `wsgi.py`, `asgi.py`, and `manage.py`.
+- Running the Dev Server: `python manage.py runserver` starts the server at `http://127.0.0.1:8000/` — equivalent to `npm run dev`.
+- Django Apps: `python manage.py startapp blog` creates a self-contained module with `models.py`, `views.py`, `admin.py`, `tests.py`, and a `migrations/` folder.
+- Registering Apps: Add your app name to `INSTALLED_APPS` in `settings.py` to make Django aware of it.
+- settings.py: Central config file — controls `SECRET_KEY`, `DEBUG`, `ALLOWED_HOSTS`, `INSTALLED_APPS`, database config (`DATABASES`), and static files.
+- Django Admin Panel: Built-in at `/admin/` — create a superuser with `python manage.py createsuperuser` to log in and manage data through a UI.
+- Mini-Project: Blog Setup — creating a Django project and `blog` app, registering it, running migrations, and exploring the admin panel.

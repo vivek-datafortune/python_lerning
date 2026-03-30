@@ -1,0 +1,9 @@
+- Modules & Imports: Importing built-in modules, importing specific items, aliases, and creating your own modules.
+- Import styles: `import math`, `from math import sqrt`, `import datetime as dt`, and importing from subdirectories.
+- Creating Modules: Writing reusable `.py` files with functions and using `if __name__ == "__main__"` to guard direct execution.
+- Packages: Organising modules into folders with `__init__.py` to make them importable as a package.
+- Virtual Environments: Isolating project dependencies with `python -m venv venv` (equivalent to node_modules in JS).
+- pip (Package Manager): Installing, upgrading, and uninstalling packages — similar to npm.
+    - `pip install <package>`, `pip freeze > requirements.txt`, `pip install -r requirements.txt`
+- Standard Library: Using built-in modules like `os`, `math`, `datetime`, and `random` without installing anything.
+- Mini-Project: File Organiser — applying modules, imports, and the `os` standard library module together.

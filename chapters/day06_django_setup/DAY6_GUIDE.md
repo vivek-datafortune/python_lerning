@@ -162,7 +162,7 @@ python manage.py startapp blog
 
 # This creates:
 blog/
-├── __init__.py
+├── __init__.pya 
 ├── admin.py       # Admin panel config
 ├── apps.py        # App configuration
 ├── models.py      # Database models
